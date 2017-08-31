@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <RootNamespace>CmdQ.Random</RootNamespace>
+    <AssemblyName>CmdQ.PcgRandom</AssemblyName>
+    <Authors>Tobias Becker</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>CmdQ</Company>
+    <Description>A package with a family of random number generators based on PCG by M. E. O'Neill.</Description>
+    <PackageProjectUrl>http://www.pcg-random.org/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CmdQ/pcg-random</RepositoryUrl>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard1.4\CmdQ.PcgRandom.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.4\CmdQ.PcgRandom.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
